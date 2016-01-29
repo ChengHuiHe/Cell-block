@@ -21,7 +21,7 @@
 @property (retain,nonatomic)  UIScrollView *scroView;
 
 // 用代码块的方式实现自定义cell上添加UIButton按钮，并实现点击了哪一行。
-@property (nonatomic,strong)void(^btnClick)();
+@property (nonatomic,copy)void(^btnClick)();
 
 
 @end
